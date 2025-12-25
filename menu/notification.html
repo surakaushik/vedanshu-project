@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Sidebar -->
+      <div class="sidebar">
+        <h2>NAME</h2>
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="#">NOTIFICATION</a></li>
+          <li><a href="product.html">PRODUCT</a></li>
+          <li><a href="shades.html">SHADES</a></li>
+          <li><a href="estimate.html">ESTIMATE</a></li>
+          <li><a href="users.html">USERS</a></li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <h2>Notification</h2>
+
+        <!-- Notification Display Area -->
+        <div class="notification-list" id="notificationList"></div>
+
+        <div class="notification-box">
+          <input
+            type="text"
+            id="notificationInput"
+            placeholder="New Product is ....."
+          />
+          <button class="notification-btn" onclick="addNotification()">Send</button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
