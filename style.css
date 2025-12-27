@@ -142,3 +142,90 @@
 .delete-btn:hover {
     text-decoration: underline;
 }
+
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Action Buttons */
+.edit-btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.delete-btn:hover {
+    background-color: #b91c1c;
+}
+
+.details-container {
+    /* max-width: 500px; */
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.details-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 80px;
+}
+
+.update-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.update-btn:hover {
+    background-color: #334155;
+}

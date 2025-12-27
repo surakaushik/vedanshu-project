@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css" />
     <title>Document</title>
   </head>
   <body>
@@ -20,6 +20,88 @@
           <li><a href="#">USERS</a></li>
         </ul>
       </div>
+
+      <div class="content">
+        <h2>Users</h2>
+
+        <!-- Search Bar -->
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search user by name..."
+          onkeyup="searchUser()"
+          class="search-bar"
+        />
+
+        <!-- Users Table -->
+        <table class="data-table" id="userTable">
+          <thead>
+            <tr>
+              <th>User</th>
+              <th>Email</th>
+              <th>Contact</th>
+              <th>Password</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Rahul Sharma</td>
+              <td>rahul@gmail.com</td>
+              <td>9876543210</td>
+              <td>******</td>
+              <td>
+                <button class="edit-btn" onclick="editUser(this)"><a href="users.edit.html">EDIT</a></button>
+                <button class="delete-btn" onclick="deleteUser(this)">
+                  Delete
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Anita Patel</td>
+              <td>anita@gmail.com</td>
+              <td>9123456780</td>
+              <td>******</td>
+              <td>
+                <button class="edit-btn" onclick="editUser(this)"><a href="users.edit.html">EDIT</a></button>
+                <button class="delete-btn" onclick="deleteUser(this)">
+                  Delete
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Rahul Sharma</td>
+              <td>rahul@gmail.com</td>
+              <td>9876543210</td>
+              <td>******</td>
+              <td>
+                <button class="edit-btn" onclick="editUser(this)"><a href="users.edit.html">EDIT</a></button>
+                <button class="delete-btn" onclick="deleteUser(this)">
+                  Delete
+                </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Anita Patel</td>
+              <td>anita@gmail.com</td>
+              <td>9123456780</td>
+              <td>******</td>
+              <td>
+                <button class="edit-btn" onclick="editUser(this)"><a href="users.edit.html">EDIT</a></button>
+                <button class="delete-btn" onclick="deleteUser(this)">
+                  Delete
+                </button>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
     </div>
+
+    <script src="../script.js"></script>
   </body>
 </html>
